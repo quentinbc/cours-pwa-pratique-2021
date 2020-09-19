@@ -62,7 +62,7 @@ loadTechnologies(technos);
 if(navigator.serviceWorker) {
 	// Enregistrement du service worker
     navigator.serviceWorker
-        .register('sw.js')
+        .register('/sw.js')
         
         // 8.4 Récupération ou création d'une souscription auprès d'un push service
         .then(registration =>{
